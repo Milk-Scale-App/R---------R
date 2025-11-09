@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- CSS फाइल को लिंक किया गया है -->
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h1>🔐 Demo App Admin Panel</h1>
+        <p class="subtitle">यहाँ आप सभी यूज़र्स का डेटा देख और बैलेंस बदल सकते हैं।</p>
+
+        <!-- यूज़र डेटा यहाँ लोड होगा -->
+        <div id="user-list-container">
+            <p>Loading users...</p>
+        </div>
+
+        <div id="no-users" class="hidden message">
+            No registered users found in Local Storage.
+        </div>
+    </div>
+    
+    <!-- JavaScript फाइल को लिंक किया गया है -->
+    <script src="admin.js"></script>
+</body>
+</html>
+
