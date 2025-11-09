@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ebee;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+.admin-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #dc3545; /* Red for Admin Panel */
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+/* User List Table Style */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.user-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Balance Update Section */
+.balance-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.balance-controls input {
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.balance-controls button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.balance-controls button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #fff3cd;
+    color: #856404;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
